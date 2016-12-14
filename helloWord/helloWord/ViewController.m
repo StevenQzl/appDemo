@@ -18,7 +18,12 @@
     [super viewDidLoad];
     NSLog(@"你好啊");
 }
-
+- (void)cratView
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 200)];
+    label.backgroundColor = [UIColor  yellowColor];
+    [self.view addSubview:label];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
